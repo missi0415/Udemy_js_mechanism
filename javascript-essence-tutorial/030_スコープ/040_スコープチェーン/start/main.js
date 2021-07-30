@@ -5,7 +5,7 @@ function fn1() {
     function fn2() {
         let a = 3
         console.log(a);
-
+        console.log(b);
         if (true) {
             var a = 3;
         }
