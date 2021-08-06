@@ -1,9 +1,10 @@
-const a = 3
-let b = 3
-let c = 3
-const v = 2
-
-if a > 0 {
-  console.log(a)
-  console.log(b)
+let a = 2;
+function {
+  let a = 1;
+  function fn2() {
+    let a = 3;
+    console.log(a);
+  }
+  fn2();
 }
+fn1();
