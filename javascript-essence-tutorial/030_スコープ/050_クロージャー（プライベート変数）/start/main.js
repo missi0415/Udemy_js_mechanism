@@ -1,10 +1,19 @@
-let a = 2;
-function {
-  let a = 1;
-  function fn2() {
-    let a = 3;
-    console.log(a);
+
+
+function incrementFactory() {
+  let num = 0;
+  function increment(){
+    num = num +1;
+    console.log(num);
+
   }
-  fn2();
+  return increment;
 }
-fn1();
+
+const increment = incrementFactory(); 
+
+
+increment();
+increment();
+increment();
+increment();
