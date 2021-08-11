@@ -4,5 +4,6 @@ function addNumberFactory(num) {
     console.log(a)
     const b = 6
     let c = 5
+    let b = 5 
   }
 }
